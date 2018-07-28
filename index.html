@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-compatiable" content="IE=edge">
+	<meta name="viewport" content="width=device-width,intital scale=1">
+	<title>game</title>
+	<script src="script.js"></script>
+</head>
+<body>
+	<h1>hangman game</h1>
+	<script>
+		//to use prompt
+		var name = prompt("whats your name?");
+		console.log("Hello " + name);
+		//to use boolean if you click okay true returned.
+		var likeCats = confirm("do you lik cats?");
+		if (likeCats) {
+			console.log("you are so cool");
+		} else {
+			console.log("yeah, that's fne you are still cool!");
+		}
+		//if you want just gave player some informathion, you can use alert.
+		alert("have a nice time");
+		//firest line of game
+		var myWords = ["amazing", "monkey", "pancake"]
+		var word = myWords[Math.floor(Math.random() * myWords.length)]
+		var answerArray = ["_", "_", "_", "_" , "_" , "_" , "_"]
+	</script>
+</body>
+</html>
