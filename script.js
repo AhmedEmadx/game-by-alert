@@ -1,6 +1,6 @@
 //to use prompt
 var name = prompt("whats your name?");
-alert("Hello " + name);
+	alert("Hello " + name);
 //to use boolean if you click okay true returned.
 var likeCats = confirm("do you like word?");
 	if (likeCats) {
